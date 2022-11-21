@@ -18,7 +18,7 @@ def automagic_key():
 
 
 if __name__ == "__main__":
-    ip_list = [str(ip) for ip in ipaddress.IPv4Network("164.97.0.0/16")]
+    ip_list = [str(ip) for ip in ipaddress.IPv4Network("10.0.0.0/8")]
     results = [] 
     otxrequester = otx(automagic_key())
 
